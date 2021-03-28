@@ -12,15 +12,15 @@ logo_white = ""
 # when logo is empty, it will shown your site title
 
 # customize color
-primary_color = "#02007e"
-body_color = "#f9f9f9"
-text_color = "#636363"
-text_color_dark = "#242738"
-white_color = "#ffffff"
+primary_color = "#5feff9"
+body_color = "#361a99"
+text_color = "#8ca4b4"
+text_color_dark = "#ffffff"
+white_color = "#0b0414"
 light_color = "#f8f9fa"
 
 # font family
-font_family = "lato" # Choose font family from : https://fonts.google.com/
+font_family = "roboto" # Choose font family from : https://fonts.google.com/
 
 ################################ English Language ######################
 [Languages.en]
