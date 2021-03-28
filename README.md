@@ -1,7 +1,7 @@
 # mudocs
 Official website for mutant
 
-### Hot to development server run
+### Hot to run development server
 
 ```bash
 hugo server -D
