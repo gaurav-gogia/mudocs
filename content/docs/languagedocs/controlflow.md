@@ -1,7 +1,8 @@
 ---
 title: "Control Flow"
 date: 2021-03-29T01:02:41+05:30
-draft: true
+draft: false
+weight: 6
 ---
 
 [Mutant](https://github.com/gaurav-gogia/mutant) supports simple conditions and branching through if/else statements. Let's see them in action in below examples:

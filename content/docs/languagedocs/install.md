@@ -1,7 +1,8 @@
 ---
 title: "Install"
 date: 2021-03-29T01:13:47+05:30
-draft: true
+draft: false
+weight: 1
 ---
 
 #### Packaged Binary

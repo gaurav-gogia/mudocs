@@ -1,7 +1,8 @@
 ---
-title: "Example Programs"
+title: "Examples"
 date: 2021-03-28T11:06:57+05:30
-draft: true
+draft: false
+weight: 3
 ---
 
 Here is a list of some example [mutant](https://github.com/gaurav-gogia/mutant) programs to get your journey started:

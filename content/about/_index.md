@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-03-28T10:48:43+05:30
-draft: true
+draft: false
 ---
 
 ##### Team Mutant

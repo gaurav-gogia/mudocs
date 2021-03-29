@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-draft: true
+draft: false
 ---
 
 {{< faq "Who are your target audience?" >}}

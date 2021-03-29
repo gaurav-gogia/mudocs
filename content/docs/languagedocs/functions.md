@@ -1,7 +1,8 @@
 ---
 title: "Functions"
 date: 2021-03-29T01:03:00+05:30
-draft: true
+draft: false
+weight: 8
 ---
 
 [Mutant](https://github.com/gaurav-gogia/mutant) supports user defined functions. Let's see them in action in below examples:

@@ -1,7 +1,8 @@
 ---
 title: "Built-Ins"
 date: 2021-03-29T01:03:16+05:30
-draft: true
+draft: false
+weight: 9
 ---
 
 [Mutant](https://github.com/gaurav-gogia/mutant) has some built-in functions. Let's see them in action in below examples:

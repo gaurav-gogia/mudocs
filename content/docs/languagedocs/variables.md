@@ -1,7 +1,8 @@
 ---
 title: "Variables"
 date: 2021-03-29T01:02:15+05:30
-draft: true
+draft: false
+weight: 7
 ---
 
 [Mutant](https://github.com/gaurav-gogia/mutant) supports variable declaration and reassignment. Let's see them in action in below examples:
