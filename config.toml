@@ -16,8 +16,8 @@ primary_color = "#5feff9"
 body_color = "#361a99"
 text_color = "#8ca4b4"
 text_color_dark = "#ffffff"
-white_color = "#0b0414"
-light_color = "#f8f9fa"
+white_color = "#171b42"
+light_color = "#361a99"
 
 # font family
 font_family = "roboto" # Choose font family from : https://fonts.google.com/
