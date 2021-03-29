@@ -5,7 +5,7 @@ draft: true
 ---
 
 #### Packaged Binary
-Download latest release from [our official GitHub repo](http://github.com/gaurav-gogia/mutant) for your operating system
+Download latest release from [our official GitHub repo](https://github.com/gaurav-gogia/mutant/releases) for your operating system
 
 #### Intall from Source
 Pre-Installation: Download & Install [GoLang](https://golang.org)

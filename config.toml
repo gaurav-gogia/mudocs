@@ -42,7 +42,7 @@ content = "Official compiled binaries are available for: Linux, macOS, & Windows
 [Languages.en.params.cta.button]
 enable = true
 label = "Download"
-link = "https://github.com/gaurav-gogia/mutant"
+link = "https://github.com/gaurav-gogia/mutant/releases"
 
 
 ################## english navigation #################
