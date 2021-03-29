@@ -28,7 +28,7 @@ weight = 1
 
 # banner
 [Languages.en.params.banner]
-title = "μdocs for [mutant](https://github.com/gaurav-gogia)"
+title = "μdocs for [mutant](https://github.com/gaurav-gogia/mutant)"
 subtitle = "mutant is an open source programming language whose aim is to provide an accessible, secure way for programming & security research."
 bg_image = "images/banner.jpeg"
 
