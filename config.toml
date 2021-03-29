@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://mudocs.netlify.app/"
 languageCode = "en-us"
 title = "μdocs"
 theme = "Dot"
