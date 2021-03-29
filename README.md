@@ -1,5 +1,5 @@
 # mudocs
-Official website for mutant
+[Official website for mutant](https://mudocs.netlify.app)
 
 ### Hot to run development server
 ```bash
