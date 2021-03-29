@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>μdocs</title>
+    <link>http://example.org/</link>
+    <description>Recent content on μdocs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Mar 2021 11:33:38 +0530</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install</title>
+      <link>http://example.org/docs/languagedocs/install/</link>
+      <pubDate>Mon, 29 Mar 2021 01:13:47 +0530</pubDate>
+      
+      <guid>http://example.org/docs/languagedocs/install/</guid>
+      <description>Packaged Binary Download latest release from our official GitHub repo for your operating system
+Intall from Source Pre-Installation: Download &amp;amp; Install GoLang
+git clone https://github.com/gaurav-gogia/mutant cd mutant go install </description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://example.org/docs/languagedocs/gettingstarted/</link>
+      <pubDate>Mon, 29 Mar 2021 01:02:05 +0530</pubDate>
+      
+      <guid>http://example.org/docs/languagedocs/gettingstarted/</guid>
+      <description>Install Install the latest build by going through our install section.
+REPL Run following command to ensure that mutant has been installed successfully
+mutant  If it is installed correctly, then you should be able to see a similar screen:  To run the age old &amp;ldquo;Hello, World&amp;rdquo; program, use following code snippet following image should be your output:
+puts(&amp;#34;Hello, World!&amp;#34;); Code through mut file All your mutant source code files will have extension mut, this extension is used by the compiler to read the source code and generate the compiled bytecode file with mu extension.</description>
+    </item>
+    
+    <item>
+      <title>REPL</title>
+      <link>http://example.org/docs/languagedocs/repl/</link>
+      <pubDate>Mon, 29 Mar 2021 11:33:38 +0530</pubDate>
+      
+      <guid>http://example.org/docs/languagedocs/repl/</guid>
+      <description>Read, Eval, Print, Loop mutant language has a basic REPL for testing the language before you starting writing some real code. Its still in a pre-release state and is therefore a powered down version. REPL is not intended to be used for writing full fledged programs.
+It is merely a gateway, to help new learners take this language for a test drive. Rest assured, there has been no compromise in run-time security even in this REPL mode to ensure a familiar experience that syncs with your programs written in a mut file.</description>
+    </item>
+    
+    <item>
+      <title>Keywords</title>
+      <link>http://example.org/docs/languagedocs/keywords/</link>
+      <pubDate>Mon, 29 Mar 2021 01:02:23 +0530</pubDate>
+      
+      <guid>http://example.org/docs/languagedocs/keywords/</guid>
+      <description>Following is the list of all the keywords that will be used:  fn let true false if else return  Following is the list of built-in functions:  puts putln gets push len first last rest  </description>
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://example.org/docs/languagedocs/datatypes/</link>
+      <pubDate>Mon, 29 Mar 2021 01:02:12 +0530</pubDate>
+      
+      <guid>http://example.org/docs/languagedocs/datatypes/</guid>
+      <description>Mutant programming language supports following data types: The language is loosly typed and it does not require defining specific data types while creating variables.
+Primitive Types   string: Strings in Mutant are UTF-8 encoded strings. A string in mutant is a read-only list of bytes. While mutant does not support bytes natively as of this release, it is closely tied with how Go treats its bytes and strings.
+  integer: All integers in [Mutant]https://github.</description>
+    </item>
+    
+    <item>
+      <title>Control Flow</title>
+      <link>http://example.org/docs/languagedocs/controlflow/</link>
+      <pubDate>Mon, 29 Mar 2021 01:02:41 +0530</pubDate>
+      
+      <guid>http://example.org/docs/languagedocs/controlflow/</guid>
+      <description>Mutant supports simple conditions and branching through if/else statements. Let&amp;rsquo;s see them in action in below examples:
+Example 1 if(1 == 1) { puts(&amp;#34;yes&amp;#34;); } Example 2 if(1 == 2) { puts(&amp;#34;yes&amp;#34;); } else { puts(&amp;#34;no&amp;#34;); } Example 3 if(1 == 2) { puts(&amp;#34;yes&amp;#34;); } if(1 == 3) { puts(&amp;#34;yes 3&amp;#34;); } else { puts(&amp;#34;no&amp;#34;); } </description>
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://example.org/docs/languagedocs/variables/</link>
+      <pubDate>Mon, 29 Mar 2021 01:02:15 +0530</pubDate>
+      
+      <guid>http://example.org/docs/languagedocs/variables/</guid>
+      <description>Mutant supports variable declaration and reassignment. Let&amp;rsquo;s see them in action in below examples:
+Example 1 let name = &amp;#34;sakamoto&amp;#34;; Example 2 let age = 20; Example 3 let isCat = true; puts(isCat); let isCat = false; puts(isCat); Example 4 let array = [1, &amp;#34;sakamoto&amp;#34;, true, &amp;#34;cat&amp;#34;]; Example 5 let map = { &amp;#34;name&amp;#34;: &amp;#34;sakamoto&amp;#34;, &amp;#34;age&amp;#34;: 20, &amp;#34;isCat&amp;#34;: true, }; </description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://example.org/docs/languagedocs/functions/</link>
+      <pubDate>Mon, 29 Mar 2021 01:03:00 +0530</pubDate>
+      
+      <guid>http://example.org/docs/languagedocs/functions/</guid>
+      <description>Mutant supports user defined functions. Let&amp;rsquo;s see them in action in below examples:
+Example 1 let sum = fn(n1, n2) { return n1 + n2; }; sum(10, 20); Example 2 let minus = fn(n1, n2) { putln(&amp;#34;In minus function&amp;#34;); putln(n1 - n2); } minus(20, 10); </description>
+    </item>
+    
+    <item>
+      <title>Built-Ins</title>
+      <link>http://example.org/docs/languagedocs/builtins/</link>
+      <pubDate>Mon, 29 Mar 2021 01:03:16 +0530</pubDate>
+      
+      <guid>http://example.org/docs/languagedocs/builtins/</guid>
+      <description>Mutant has some built-in functions. Let&amp;rsquo;s see them in action in below examples:
+Example 1 puts(&amp;#34;Hi&amp;#34;); Example 2 putln(&amp;#34;Hi&amp;#34;); putln(&amp;#34;Bye&amp;#34;); Example 3 let name = gets(&amp;#34;string&amp;#34;); puts(name); Example 4 let array = [1, 2, 3]; putln(array); let array = push(array, 4); putln(array); Example 5 let array = [1, 2, 3]; putln(len(array)); Example 6 let array = [1, 2, 3]; putln(first(array)); Example 7 let array = [1, 2, 3]; putln(last(array)); Example 8 let array = [1, 2, 3]; putln(rest(array)); </description>
+    </item>
+    
+  </channel>
+</rss>
