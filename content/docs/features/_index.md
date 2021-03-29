@@ -15,5 +15,8 @@ The language also adds a header and a footer in the generated compiled file with
 #### REPL
 Language has support for a basic REPL for testing out the capabilities. It is a powered down version of the full language and is only intended to test basic features of the language
 
+#### VM
+Language makes use of a virtual machine, known as "Mutant Virtual Machine" or MVM. This virtual machine makes sure that your program runs in **YOUR** machine. It has been tested on Linux, macOS, & Windows. Although, it should also work on Android, FreeBSD and essentially any platform/architecture that is supported natively by [Go Programming Language](https://golang.org).
+
 #### Unicode Support
 The language supports emojis, glyphs and other non ASCII characters making it truly multi-lingual. Future versions will include support for multi-lingual syntax so that programming is not restricted to just ASCII based written languages
