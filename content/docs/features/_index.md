@@ -21,9 +21,16 @@ The language also adds a header and a footer in the generated compiled file with
 Language has support for a basic REPL for testing out the capabilities. It is a powered down version of the full language and is only intended to test basic features of the language
 
 #### VM
-Language makes use of a virtual machine, known as "Mutant Virtual Machine" or MVM. This virtual machine makes sure that your program runs in **YOUR** machine. It has been tested on Linux, macOS, & Windows. Although, it should also work on Android, FreeBSD and essentially any platform/architecture that is supported natively by [Go Programming Language](https://golang.org).
+[Mutant](https://github.com/gaurav-gogia/mutant) Language makes use of a virtual machine, known as "Mutant Virtual Machine" or MVM. This virtual machine makes sure that your program runs in **YOUR** machine. It has been tested on Linux, macOS, & Windows. Although, it should also work on Android, FreeBSD and essentially any platform/architecture that is supported natively by [Go Programming Language](https://golang.org).
 
 This virtual machine is run everytime it has to run compiled `mu` files or whenever the user decides to run their programs through [REPL](/docs/languagedocs/repl)
+
+#### Release Builds
+[Mutant](https://github.com/gaurav-gogia/mutant) is capable of generating self-contained, independent, executable binary files. These files can be generated for a number of platforms. The language supports cross compilation for Linux, macOS & Windows. Supported architectures include amd64, 386, arm64 & arm. Please go through in-language help for more information.
+
+The size of generated binaries may concerning for some people, but the team is working hard to find innovative ways to try and trim the fat.
+
+Release builds do **not** require the client machine to have [mutant](https://github.com/gaurav-gogia/mutant) installed.
 
 #### Unicode Support
 The language supports emojis, glyphs and other non ASCII characters making it truly multi-lingual. Future versions will include support for multi-lingual syntax so that programming is not restricted to just ASCII based written languages
